@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Meeting Assisstant</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app-header">
+  <h1>Resumen y Tareas</h1>
+  <h3>📢 ¡Hola, hola! 🎙️ ¿Necesitas convertir tus grabaciones de reuniones en minutas, tareas y resúmenes alucinantes para los ausentes? ¡No busques más! ✨ ¡Nuestra app lo hace por ti! 🚀 ¡Solo sube la grabación y listo! 🎩✨ ¡Recibe resúmenes geniales y divertidos, minutas precisas y tareas asignadas en un abrir y cerrar de ojos! ⚡️ ¡No más FOMO para tus compañeros ausentes! 😎💼 ¡Automatizamos lo aburrido y devolvemos la diversión a la productividad! 🎉💪 #GenioDeReuniones 🤓🔥</h3>
+</div>
+ <div class="app-tags">
+      <span class="tag">⭐ Marketing</span>
+      <span class="tag">🌐 Social Media</span>
+      <span class="tag">📣 Content Creation</span>
+      <span class="tag">🚀 Campaigns</span>
+      <span class="tag">🔍 SEO</span>
+    </div>
+        <div class="metrics-info">
+      <span class="metric">84</span>
+      <span class="metric-label">Total uses</span>
+      <span class="metric">1</span>
+      <span class="metric-label">Saved</span>
+      <span class="metric">2 days ago</span>
+    </div>
+  </div>
+</div>
+  
+
+<div class="container">
+  <div class="prompt">
+    <h2>Prompt:</h2>
+    <div id="promptText"></div>
+  </div>
+  <div class="form-container">
+    <h1>Transcribe and Generate Summary</h1>
+    <form id="inputForm">
+      <div class="form-group">
+        <label for="input1">Meeting Recording:</label>
+        <input type="text" id="input1" name="input1" data-hint="Enter the whole transcript of your meeting" />
+        <div class="hint-box"></div>
+      </div>
+
+      <button type="submit">Generate Prompt</button>
+    </form>
+  </div>
+</div>
+
+<button id="copyButton">Copy Prompt</button>
+<button id="editButton">Edit Prompt</button>
+<button id="copyInputsButton">Copy Inputs as JSON</button>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

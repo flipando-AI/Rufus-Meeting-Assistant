@@ -1,0 +1,285 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+  background-color: #F8F8F8;
+}
+
+.app-header {
+  background-color: #F8F8F8;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.app-header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.app-info {
+  margin-bottom: 10px;
+}
+
+.app-info p {
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+.app-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #DFE2E5;
+  color: #586069;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.prompt {
+  flex: 1;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.prompt h2 {
+  margin-bottom: 10px;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+}
+
+#promptText {
+  font-family: 'Segoe UI Mono', Courier, monospace;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  min-height: 200px;
+}
+
+input.filled {
+  background-color: #FFFF99;
+}
+
+.input1 {
+  background-color: #FF9999;
+}
+
+.input2 {
+  background-color: #99FF99;
+}
+
+.input3 {
+  background-color: #99CCFF;
+}
+
+.input4 {
+  background-color: #FF99FF;
+}
+
+.hint-box {
+  margin-top: 5px;
+}
+
+.hint-box {
+  background-color: #F8F8F8;
+  color: #999999;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px; /* Adjust the font size to your preference */
+  font-style: italic; /* Apply italic style to the text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Specify the font family */
+}
+
+.emoji {
+  margin-right: 5px;
+}
+.metrics-info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #586069;
+  margin-top: 10px;
+}
+
+.metric {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.metric-label {
+  margin-right: 10px;
+  color: #999999;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+  background-color: #F8F8F8;
+}
+
+.app-header {
+  background-color: #F8F8F8;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.app-header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.app-info {
+  margin-bottom: 10px;
+}
+
+.app-info p {
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+.app-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #DFE2E5;
+  color: #586069;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.prompt {
+  flex: 1;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.prompt h2 {
+  margin-bottom: 10px;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+}
+
+#promptText {
+  font-family: 'Segoe UI Mono', Courier, monospace;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  min-height: 200px;
+}
+
+input.filled {
+  background-color: #FFFF99;
+}
+
+.input1 {
+  background-color: #FF9999;
+}
+
+.input2 {
+  background-color: #99FF99;
+}
+
+.input3 {
+  background-color: #99CCFF;
+}
+
+.input4 {
+  background-color: #FF99FF;
+}
+
+.hint-box {
+  margin-top: 5px;
+}
+
+.hint-box {
+  background-color: #F8F8F8;
+  color: #999999;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px; /* Adjust the font size to your preference */
+  font-style: italic; /* Apply italic style to the text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Specify the font family */
+}
+
+.emoji {
+  margin-right: 5px;
+}
+.metrics-info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #586069;
+  margin-top: 10px;
+}
+
+.metric {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.metric-label {
+  margin-right: 10px;
+  color: #999999;
+}
+
+input#input1.filled {
+  background-color: #FF9999;
+}
+
+input#input2.filled {
+  background-color: #99FF99;
+}
